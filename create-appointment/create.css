@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("../images/mian-bg2.gif");
+	background-repeat: repeat;
+}
+body::after{
+	clear: both;
+	display: table;
+	background-image: url("../images/mian-bg2.gif");
+	background-repeat: repeat;
+
+}
+/*sidebar*/
+.sidebar{
+	width: 15%;
+	float: left;
+	background-color: black;
+	height: 794px;
+}
+.top img{
+	width: 100%;
+	height: 50px;
+}
+
+.bottom img{
+	padding: 0 50px;
+}
+/*content*/
+.maincontent{
+	width: 85%;
+	float: left;
+	height: 794px;
+}
+.menu{
+	height: 50px;
+	background-color: #cecece;
+	line-height: 50px;
+}
+.menu span{
+	padding-left: 10px;
+}
+/*form*/
+.form{
+	background-color: #222222; 
+	width: 60%;
+	height: 80%;
+	margin: 1% 1.2%;
+	color: white;
+}
+.label{
+	float: left;
+	width: 20%;
+	height: 100%;
+	padding-left: 10px;
+}
+.item::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.item{
+	margin-top: 2%;
+	height: 30px;
+
+}
+.input{
+	width: 79%;
+	height: 100%;
+	float: left;
+}
+
+input[type=radio]{
+	width: 5%;
+}
+.radio:after{
+	clear: both;
+}
+.radio{
+	height: 100%;
+	    width: 40%;
+	float: left;
+}
+
+input{
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+}
+.input ul{
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}	
+.input ul li{
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: #303030;
+	line-height: 100%;
+	margin-left: 3%;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 3px;
+
+}
+.input ul li:hover{
+	background-color: #aaa;
+}
+button{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 6%;
+	background-color: #00bd90;
+	height: 30px;
+	border-radius: 4px;
+}
